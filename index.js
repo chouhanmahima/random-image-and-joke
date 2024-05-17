@@ -1,6 +1,6 @@
+const dotenv = require("dotenv");
 const express = require("express");
 const axios = require("axios");
-const dotenv = require("dotenv");
 const sharp = require('sharp');
 const fs = require("fs");
 

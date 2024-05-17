@@ -20,8 +20,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-username/your-repository.git
-    cd your-repository
+    git clone https://github.com/chouhanmahima/random-image-and-joke.git
     ```
 
 2. Install the dependencies:
@@ -65,3 +64,11 @@ Fetches a random dad joke from the API Ninjas service.
   {
       "joke": "Your dad joke here"
   }
+  ```
+  ## Error Handling
+
+- If an internal server error occurs, a 500 status with a message will be returned.
+
+- For any other routes not defined, a 404 status with a "PAGE NOT FOUND" message will be returned.
+
+
